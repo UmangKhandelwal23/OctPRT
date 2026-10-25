@@ -10,7 +10,7 @@ pipeline {
 
         stage('git') {
             steps {
-                git branch: 'main', url: 'http://github.com/UmangKhandelwal23/OctPRT'
+                git branch: 'master', url: 'http://github.com/UmangKhandelwal23/OctPRT'
             }
         }
 
