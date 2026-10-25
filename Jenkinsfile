@@ -34,7 +34,7 @@ pipeline {
                 sh '''
                 sudo docker stop octprt-container || true
                 sudo docker rm octprt-container || true
-                sudo docker run -d --name octprt-container -p 80:80 umangkhandelwal/octprt:v1
+                sudo docker run -d --name octprt-container -p 8080:80 umangkhandelwal/octprt:v1
                 '''
             }
         }
